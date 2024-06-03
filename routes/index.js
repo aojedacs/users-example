@@ -9,4 +9,7 @@ router.get('/saludo', function(req, res, next) {
   res.json({saludo:"Hola Mundo"});
 });
 
+router.get('/adios', function(req, res, next) {
+  res.json({saludo:"Adios"});
+});
 module.exports = router;
